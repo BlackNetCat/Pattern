@@ -33,9 +33,15 @@ public abstract class Pizza {
 	  
 	 
 
-	  public void setName(String string) {
-		// TODO Auto-generated method stub
+	  public void setName(String name) {
+		this.name = name;
 		
 	}
-	}
+	  
+	  public void pizzaComponents (){
+		  
+		  System.out.println("Pizza's Components:"+dough+sauce+veggies+cheese+papperoni+clam);
+		  
+	  }
+}
 
