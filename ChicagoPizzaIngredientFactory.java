@@ -12,7 +12,7 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory{
 		return new MozzarellaCheese ();
 	}
 	public Veggies [] createVeggies (){
-		Veggies veggies [] = { new EggPlant(), new Spinach(), new BlackOlives(), new Onion()};
+		Veggies veggies [] = { new EggPlant(), new Spinach(), new BlackOlives()};
 		return veggies;
 	}
 	public Papperoni createPapperoni(){
